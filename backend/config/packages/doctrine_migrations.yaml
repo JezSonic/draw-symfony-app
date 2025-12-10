@@ -1,0 +1,5 @@
+doctrine_migrations:
+    migrations_paths:
+        # ensure the key is 'DoctrineMigrations', NOT '' (empty string)
+        'DoctrineMigrations': '%kernel.project_dir%/migrations'
+    enable_profiler: false
